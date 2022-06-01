@@ -1,0 +1,73 @@
+.logo {
+  height: 80px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  list-style-type: none;
+
+  li {
+    padding: 10px 0;
+
+    a {
+      position: relative;
+      display: block;
+      padding: 4px 0;
+      font-family: Lato, sans-serif;
+      color: #074352;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: 0.5s;
+
+      &::after {
+        position: absolute;
+        content: '';
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: rgb(254, 178, 180);
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.5s;
+      }
+
+      &:hover {
+        transform: var(--bounce);
+        transition: var(--transition);
+        color: #2498a0;
+      }
+
+      &:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+    }
+  }
+}
+
+.active {
+  font-weight: bold;
+}
+
+.login_btn {
+  font-weight: 500;
+  color: black;
+  background-color: rgb(197, 222, 231);
+  border: none;
+  padding: 7px 20px;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+.nav-link {
+  color: black;
+}
+
+.signout {
+  color: black;
+}

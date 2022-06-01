@@ -1,0 +1,98 @@
+@media (max-width: 991px) {
+  /*HOMEPAGE*/
+
+  .bcg-home {
+    background-image: url(/img/bcg-media.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+  }
+
+  .classic-div {
+    width: 90%;
+  }
+
+  .classic-txt {
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;
+  }
+
+  .frontpage-cta-btn {
+    margin: auto;
+  }
+
+  .btn-frontpage {
+    font-size: 16px;
+    width: 200px;
+  }
+
+  .newsletterdiv {
+    width: 90%;
+    height: 50px;
+
+    &_btn {
+      width: 20%;
+    }
+  }
+
+  .newsletterdiv_btn {
+    font-size: 0.7rem;
+    width: 38%;
+  }
+
+  .maybe-txt {
+    margin-top: 30%;
+  }
+
+  .featured_products {
+    width: 80%;
+    margin: auto;
+  }
+
+  /*PRODUCTS*/
+
+  .bcg-products {
+    height: 1000px;
+  }
+  .title__price {
+    display: inline-block;
+  }
+
+  .products-txt {
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 300px;
+  }
+
+  .searchbar {
+    margin-top: 20%;
+    width: 95%;
+  }
+
+  .login__wrap {
+    width: 90%;
+    padding: 200px 0px 0px 100px;
+  }
+}
+
+.details__container__card {
+  width: 100%;
+}
+
+/*FOOTER*/
+
+footer {
+  margin-top: 100px;
+}
+
+.footer__header {
+  margin-bottom: 30px;
+  padding-left: 27px;
+}
+
+.h6header {
+  margin-top: 50px;
+}

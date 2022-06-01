@@ -1,0 +1,81 @@
+.bcg-products {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.products-txt {
+  color: rgb(0, 0, 0);
+  font-size: 5rem;
+  font-weight: bold;
+  width: 100%;
+  height: 200px;
+  padding-left: 5rem;
+}
+
+.searchbar {
+  margin-top: 5%;
+  width: 40%;
+}
+
+.searchbar_btn,
+.newsletterdiv_btn {
+  background-color: #6c757d;
+  border: 2px solid transparent;
+  color: white;
+  height: 38px;
+
+  &:hover {
+    background-color: rgba(128, 200, 226, 0.486);
+    border: 2px solid transparent;
+  }
+}
+
+//PRODUCTS
+.products__div {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.product__image {
+  width: 100%;
+}
+
+.featured__title {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.title__price {
+  margin-top: 10px;
+  width: 100%;
+  font-weight: 700;
+}
+
+.atc__btn {
+  height: 40px;
+  width: 60%;
+  color: white;
+  background-color: rgb(254, 178, 180);
+  border: 2px solid transparent;
+  transition: ease 0.8s;
+
+  &:hover {
+    width: 90%;
+    background-color: rgb(197, 222, 231);
+    color: black;
+    transition: 0.4s ease-in-out;
+  }
+}

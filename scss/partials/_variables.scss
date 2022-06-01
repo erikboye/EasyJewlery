@@ -1,0 +1,21 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: linear-gradient(0deg, rgba(163, 205, 219, 0.705), 5%, #fff);
+}
+
+//BOUNCE NAV
+:root {
+  --bounce: translateY(-4px);
+  --transition: 0.8s;
+  --hovercol: red;
+}
+
+//FONTS
+$primary-font: 'Montserrat', sans-serif;

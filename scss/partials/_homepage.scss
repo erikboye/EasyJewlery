@@ -1,0 +1,122 @@
+.front-jewlery {
+  height: 100vh;
+}
+
+.bcg-home {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10%;
+}
+
+.frontpage-cta-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-frontpage {
+  background-color: rgba(240, 140, 123, 0.692);
+  color: rgba(255, 255, 255, 0.863);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid transparent;
+
+  &:hover {
+    border: 2px solid rgb(229, 228, 233);
+    color: rgb(255, 255, 255);
+  }
+}
+
+.classic-div {
+  width: 100%;
+  margin: auto;
+}
+
+.classic-txt {
+  width: 30%;
+  margin: auto;
+  margin-top: 10rem;
+  color: rgb(255, 255, 255);
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: rgb(117, 180, 201) 3px 0px 0px;
+  margin-bottom: 3rem;
+}
+
+.midtotal-div {
+  margin-top: 10%;
+  height: 200px;
+  background-color: rgb(229, 228, 233);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletterdiv {
+  width: 50%;
+  height: 50px;
+  border: none;
+
+  &_btn {
+    padding: 0px 40px;
+    background-color: rgb(254, 178, 180);
+    color: white;
+    border: none;
+  }
+}
+
+.maybe-txt {
+  margin-bottom: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.featured_products {
+  justify-content: center;
+}
+
+.featured {
+  padding: 0px;
+
+  &__img {
+    width: 100%;
+  }
+
+  &__wrap {
+    border: 5px solid forestgreen;
+  }
+
+  &__textwrap {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__price {
+    color: rgb(117, 180, 201);
+    font-weight: 900;
+  }
+
+  &__btn {
+    background-color: rgba(67, 182, 38, 0.678);
+    cursor: pointer;
+    color: white;
+    border: none;
+
+    &:hover {
+      background-color: rgb(67, 182, 38);
+    }
+  }
+}
+
+.row {
+  margin: 0px;
+}
